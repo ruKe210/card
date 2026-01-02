@@ -85,7 +85,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) || (CC_TARGET_PLATFORM == CC_PLATFORM_MAC) || (CC_TARGET_PLATFORM == CC_PLATFORM_LINUX)
         //glview = GLViewImpl::createWithRect("card", cocos2d::Rect(0, 0, designResolutionSize.width, designResolutionSize.height));
 
-        glview = GLViewImpl::createWithRect("card", cocos2d::Rect(0, 0, 1080, 2080), 0.4);
+        glview = GLViewImpl::createWithRect("card", cocos2d::Rect(0, 0, 1080, 2080), 0.5);
 #else
         glview = GLViewImpl::create("card");
 #endif
